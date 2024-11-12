@@ -1,0 +1,5 @@
+# Ignore all .bin files in any subfolder
+**/*.bin
+
+# Ignore all .cph folders in any subfolder
+**/.cph/
