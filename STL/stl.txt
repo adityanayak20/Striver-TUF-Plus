@@ -1,0 +1,57 @@
+Containers: pair, vector, stack, queue
+Algorithms
+Functions
+Iterators: begin(), end(), rbegin(), rend()
+
+1. Pair
+    - creation, initialization & printing
+    - make_pair
+    - copying pair from another pair
+    - pair comparison
+    - swapping
+
+2. Vector
+    - creation, initialization & printing
+    - push_back() / emplace_back()
+    - pop_back()
+    - front()
+    - back()
+    - auto iterator
+    - size()
+    - empty()
+    - capacity()
+    - swapping
+
+3. Stack
+    - push() / emplace()
+    - pop()
+    - top()
+    - empty()
+    - size()
+    - swapping
+
+4. Queue
+    - push() / emplace()
+    - pop()
+    - front()
+    - empty()
+    - size()
+    - swapping
+
+5. Priority Queue
+    - push() / emplace()
+    - pop()
+    - top()
+    - empty()
+    - size()
+
+6. Set / Unordered Set
+    - insert()
+    - find()
+    - count()
+    - erase()
+    - lower_bound() / upper_bound  {It doesn't work on Unordered Set} 
+
+7. Map / Unordered Map
+    - insert()
+    - find()

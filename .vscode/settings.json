@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.ejs": "html",
+    "*.json": "json",
+    "iostream": "cpp",
+    "ostream": "cpp"
+  },
+  "cSpell.words": [
+    "rbegin"
+  ]
+}
