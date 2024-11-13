@@ -8,7 +8,7 @@ int main()
   st.insert(40);
   st.insert(20);
   st.insert(10);
-  st.insert(20);
+  st.emplace(20);
   st.insert(20);
   st.insert(30);
 

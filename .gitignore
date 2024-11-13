@@ -3,3 +3,5 @@
 
 # Ignore all .cph folders in any subfolder
 **/.cph/
+
+.vscode

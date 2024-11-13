@@ -1,6 +1,6 @@
-Containers: pair, vector, stack, queue
-Algorithms
-Functions
+Containers: pair, vector, stack, queue, set, map
+Algorithms : sort(), next_permutation(), max_element(), reverse(), pow()
+Functions: Comparator()
 Iterators: begin(), end(), rbegin(), rend()
 
 1. Pair
@@ -46,12 +46,36 @@ Iterators: begin(), end(), rbegin(), rend()
     - size()
 
 6. Set / Unordered Set
-    - insert()
+    - insert() / emplace()
     - find()
     - count()
-    - erase()
+    - erase()   // delete all occurrences
     - lower_bound() / upper_bound  {It doesn't work on Unordered Set} 
 
-7. Map / Unordered Map
-    - insert()
+7. MultiSet / Unordered MultiSet // Allow multiple elements
+    - insert() / emplace()
     - find()
+    - count()
+    - erase()   // delete all occurrences
+    - lower_bound() / upper_bound {It doesn't work on Unordered MultiSet}
+
+8. Map / Unordered Map
+    - insert() / emplace()
+    - size()
+    - find()
+    - empty()
+    - lower_bound() / upper_bound  {It doesn't work on Unordered Map} 
+
+9. MultiMap / Unordered MultiMap // Allow multiple elements with same keys
+    - insert() / emplace()
+    - size()
+    - find()
+    - empty()
+    - lower_bound() / upper_bound {It doesn't work on Unordered MultiMap}
+
+
+
+NOTE: In both Set & Map, unordered version has better time complexity 
+
+
+    
