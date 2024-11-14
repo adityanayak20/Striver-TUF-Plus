@@ -10,19 +10,43 @@ Iterators: begin(), end(), rbegin(), rend()
     - pair comparison
     - swapping
 
-2. Vector
+2. Vector {O(1) - access, add, delete from back}
     - creation, initialization & printing
-    - push_back() / emplace_back()
-    - pop_back()
-    - front()
-    - back()
+    - push_back() / emplace_back() // O(1)
+    - pop_back() // O(1)
+    - back() // // O(1)
     - auto iterator
     - size()
     - empty()
     - capacity()
     - swapping
 
-3. Stack
+3. List {O(1) - access, add, delete from front}
+    - creation, initialization & printing
+    - push_front() / emplace_front // O(1)
+    - front() // O(1)
+    - pop_front() // O(1)
+    - auto iterator
+    - size()
+    - empty()
+    - capacity()
+    - swapping
+
+4. Deque {O(1) - access, add, delete from front & back}
+    - creation, initialization & printing
+    - push_back() / emplace_back() // O(1)
+    - push_front() / emplace_front() // O(1)
+    - back() // O(1)
+    - front() // O(1)
+    - pop_front() // O(1)
+    - pop_back() // O(1)
+    - auto iterator
+    - size()
+    - empty()
+    - capacity()
+    - swapping
+
+5. Stack
     - push() / emplace()
     - pop()
     - top()
@@ -30,7 +54,7 @@ Iterators: begin(), end(), rbegin(), rend()
     - size()
     - swapping
 
-4. Queue
+6. Queue
     - push() / emplace()
     - pop()
     - front()
@@ -38,44 +62,54 @@ Iterators: begin(), end(), rbegin(), rend()
     - size()
     - swapping
 
-5. Priority Queue
+7. Priority Queue
     - push() / emplace()
     - pop()
     - top()
     - empty()
     - size()
 
-6. Set / Unordered Set
+8. Set / Unordered Set
     - insert() / emplace()
     - find()
     - count()
     - erase()   // delete all occurrences
     - lower_bound() / upper_bound  {It doesn't work on Unordered Set} 
 
-7. MultiSet / Unordered MultiSet // Allow multiple elements
+9. MultiSet / Unordered MultiSet // Allow multiple elements
     - insert() / emplace()
     - find()
     - count()
     - erase()   // delete all occurrences
     - lower_bound() / upper_bound {It doesn't work on Unordered MultiSet}
+    - equal_range()
 
-8. Map / Unordered Map
+10. Map / Unordered Map
     - insert() / emplace()
     - size()
     - find()
     - empty()
     - lower_bound() / upper_bound  {It doesn't work on Unordered Map} 
 
-9. MultiMap / Unordered MultiMap // Allow multiple elements with same keys
+11. MultiMap / Unordered MultiMap // Allow multiple elements with same keys
     - insert() / emplace()
     - size()
     - find()
     - empty()
     - lower_bound() / upper_bound {It doesn't work on Unordered MultiMap}
+    - equal_range()
+
+12. Algorithms
+    - accumulate()
+    - Custom Comparator
+    - count()
+    - find()
+    - max_element()
+    - next_permutation()
+    - power()
+    - reverse()
+    - sort()
 
 
 
-NOTE: In both Set & Map, unordered version has better time complexity 
-
-
-    
+NOTE: In both Set & Map, unordered version has better time complexity     
